@@ -15,7 +15,7 @@ connectDB();
 const PORT = process.env.PORT || 4000;
 
 app.get("/", (req, res) => {
-  res.send("server is running successfully!");
+  return res.send("server is running successfully!");
 });
 
 app.set("trust proxy", true);
