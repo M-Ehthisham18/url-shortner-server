@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "outDir": "dist",        // compiled JS goes here
+    "outDir": "./dist",        // compiled JS goes here
     "rootDir": "./",         // root for TS files
     "esModuleInterop": true,
     "strict": true,
